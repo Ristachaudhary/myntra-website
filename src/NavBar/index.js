@@ -14,26 +14,29 @@ export default function Navbar() {
     console.log(sidemenu);
     sidemenu.style.left = "0";
   }
-  function closemenu(){
+  function closemenu() {
     var sidemenu = document.getElementById("side-menu");
-    sidemenu.style.left="-100%";
-   }
+    sidemenu.style.left = "-100%";
+  }
   return (
     <div>
       <nav className="navbar  navbar-expand-lg bg-white shadow-sm ">
         <div className="navbar-parent-container container-fluid ms-5 d-flex justify-content-between align-items-center">
           <div className="d-flex align-items-center">
-          <div className="fa-solid fa-bars" onClick={openmenu} >
-                <FontAwesomeIcon icon={faBars} />
-              </div>
+            <div className="fa-solid fa-bars" onClick={openmenu}>
+              <FontAwesomeIcon icon={faBars} />
+            </div>
             <div className="navbar-myntra-logo-img-container me-51">
               <img src={MyntraLogo} className="navbar-myntra-logo-img" />
             </div>
             <div className="navbar-menu-items-and-search-main-container d-flex  ">
-              <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" id="side-menu">
-              <div className="fa-solid-xmark fa-xmark" onClick={closemenu} >
-                <FontAwesomeIcon icon={faXmark} />
-              </div>
+              <ul
+                className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                id="side-menu"
+              >
+                <div className="fa-solid-xmark fa-xmark" onClick={closemenu}>
+                  <FontAwesomeIcon icon={faXmark} />
+                </div>
                 <li className="nav-item ">
                   <a className="nav-link active" aria-current="page" href="#">
                     MEN
@@ -58,11 +61,8 @@ export default function Navbar() {
                   <a className="nav-link active">STUDIO</a>
                 </li>
               </ul>
-             
             </div>
-            {/* ...........bar........... */}
-           
-              {/* ..........................xxxxxxxx.......... */}
+
             <div className=" nav-search bg-light rounded  ">
               <img
                 src={searchIcon}
@@ -99,7 +99,6 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-        {/* <i class="fa-solid fa-bars" onclick="openmenu()"></i> */}
       </nav>
     </div>
   );

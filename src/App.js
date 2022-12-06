@@ -19,12 +19,6 @@ import TrendsForHer from "./TrendsForHer";
 import TrendsForHim from "./TrendsForHim";
 import BestKidsWear from "./BestKidsWear";
 import NewTopBrands from "./NewTopBrands";
-
-
-// import TopBrands from "./TopBrands";
-// import CategoryToBag from "./CategoryToBag";
-// import ExploreTopBrands from "./ExploreTopBrands";
-// import TWesternWear from "./TWesternWear";
 import FooterSection from "./FooterSection";
 
 
@@ -36,7 +30,7 @@ function App() {
 
 
   React.useEffect(() => {
-    const url = "https://demo4702819.mockable.io/v1/api/page/home";
+    const url = "https://demo8719168.mockable.io/api/v1/page/home";
     fetch(url)
       .then((response) => response.json())
       .then((json) => {
@@ -120,11 +114,7 @@ function App() {
         if (p.type === "new-top-brands")
           return <NewTopBrands imgs={p.img} title={p.title} />;
       })}
-      {/* <TopBrands />
-      <CategoryToBag />
-      <ExploreTopBrands />
-      <TWesternWear />
-       */}
+  
       <FooterSection />
     </div>
   );

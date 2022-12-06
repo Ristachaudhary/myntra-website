@@ -1,9 +1,3 @@
 .gifting-card-img {
   width: calc(100vw / 4);
-  /* width: 372px; */
 }
-/* @media (max-width:600px) {
-  .gifting-card-img{
-    display: none;
-  }
-} */

@@ -32,8 +32,7 @@ export default function Banner({img}) {
           slidesToScroll: 2,
           initialSlide: 2,
           arrows:false,
-          // prevArrow: false,
-          // nextArrow: false
+        
         }
       },
       {
@@ -56,7 +55,6 @@ export default function Banner({img}) {
        {
          img.map((i)=>{
            return <img src={i} className="banner-img position-absolute1" />
-           // <div className="banner-img">{i}</div>
           })
         }
 

@@ -8,7 +8,6 @@ import "./style.css";
 
 export default function BestKidsWear({ title, imgs }) {
   const settings = {
-    // centerMode: true,
     dots: false,
     infinite: false,
     speed: 300,

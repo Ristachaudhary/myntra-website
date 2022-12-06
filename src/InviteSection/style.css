@@ -23,7 +23,6 @@
   .invitesection-main-container{
     display: flex;
     flex-direction: column;
-    /* margin-top: 30px; */
     height: 120px;
   }
   .invite-section-text{
@@ -32,7 +31,6 @@
  .btn-img-text{
   display: none;
  }
- /* it is not working.  */
 
   
   

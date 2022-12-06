@@ -9,7 +9,6 @@ import "./style.css";
 import HeadingComponent from "../Components/HeadingComp";
 export default function DealOfTHeDay({ title, imgs }) {
   const settings = {
-    // centerMode: true,
     dots: false,
     infinite: false,
     speed: 300,

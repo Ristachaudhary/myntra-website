@@ -58,16 +58,10 @@
 .navbar-profile-wishlist-bag-parent-div {
   height: 50px;
 }
-.navbar-logo-and-profile-parent-div {
-  /* height: 40px; */
-  /* padding: 0 12px 0 17px; */
-  /* position: relative; */
-}
+
 .navbar-profile-logo {
   font-size: 11pxpx;
-  /* position: absolute; */
-  /* margin: 10px 0 0;
-  bottom: 13px; */
+ 
 }
 .fa-solid {
   display: none;
@@ -84,15 +78,18 @@
 
   }
   .fa-solid{
-        /* position: absolute; */
+    display: block; 
+    
         top: 25px;
         left: 25px;
         cursor: pointer;
   }
-  .fa-solid {
-    display: block; 
+  .fa-solid-xmark{
+    display: block;
     font-size: 25px; 
-}
+    margin-left: 10px;
+  }
+
 
   .navbar-nav {
     background: whitesmoke;
