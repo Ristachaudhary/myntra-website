@@ -1,0 +1,126 @@
+.navbar {
+  height: 80px;
+}
+.navbar-parent-container {
+  width: 100%;
+}
+.navbar-myntra-logo-img-container {
+  height: fit-content;
+  width: fit-content;
+  
+}
+.navbar-myntra-logo-img {
+  height: 50px;
+  width: 50px;
+}
+.nav-item {
+  color: #282c3f;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+.navbar-profile-logo {
+  height: 40px;
+  width: 40px;
+  /* background: url("./profileIcon.png"); */
+}
+.navbar-wishlist-logo {
+  height: 40px;
+  width: 40px;
+  /* background: url("./wishlist.png"); */
+}
+.navbar-bag-logo {
+  height: 40px;
+  width: 40px;
+  /* background: url("./shopping.png"); */
+  background-repeat: no-repeat;
+}
+.profile-img {
+  width: 20px;
+  height: 20px;
+}
+
+.navbar-search-box {
+  width: 500px;
+  text-align: start;
+  cursor: text;
+  font-size: 15px;
+  padding: 10px 5px;
+}
+.nav-bar-search-icon {
+  width: 20x;
+  height: 20px;
+}
+.navbar-cart-section {
+  font-size: 11px;
+}
+.navbar-profile-wishlist-bag-parent-div {
+  height: 50px;
+}
+.navbar-logo-and-profile-parent-div {
+  /* height: 40px; */
+  /* padding: 0 12px 0 17px; */
+  /* position: relative; */
+}
+.navbar-profile-logo {
+  font-size: 11pxpx;
+  /* position: absolute; */
+  /* margin: 10px 0 0;
+  bottom: 13px; */
+}
+.fa-solid {
+  display: none;
+}
+.fa-solid-xmark{
+  display: none;
+}
+@media (max-width:600px) { 
+  div.navbar-parent-container{
+    margin-left: 0px!important;
+  }
+  div.navbar-cart-section{
+    margin-right: 0px!important;
+
+  }
+  .fa-solid{
+        /* position: absolute; */
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+  }
+  .fa-solid {
+    display: block; 
+    font-size: 25px; 
+}
+
+  .navbar-nav {
+    background: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 11;
+    transition: right 0.5s;
+}
+  .nav-search{
+    display: none;
+  }
+ 
+  .navbar-nav{
+    display: none;
+  }
+  /* div.navbar-cart-section{
+    margin-right: .5rem!important;
+
+    position: relative;
+  } */
+  .navbar-profile-wishlist-bag-parent-div{
+    /* position: absolute; */
+    top: 0px;
+    right: 0px;
+    /* display:none; */
+  }
+}

@@ -1,0 +1,9 @@
+@media (max-width:600px) {
+    div.new-top-brand-title-img{
+        margin-left: 10px!important;
+        margin-right: 0px!important;
+    }
+    div.new-top-brand-title{
+        margin-left: 40px!important;
+    }
+}

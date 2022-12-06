@@ -1,0 +1,9 @@
+@media (max-width:600px) {
+    div.slashed-price-img-title{
+        margin-left: 10px!important;
+        margin-right: 0px!important;
+    }
+    div.slashed-price-title{
+        margin-left: 40px!important;
+    }
+}

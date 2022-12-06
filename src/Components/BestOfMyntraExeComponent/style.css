@@ -1,0 +1,13 @@
+.best-of-mynt-exe-img {
+  width: calc(100vw / 9);
+  /* width: 173px; */
+}
+@media (max-width:600px) {
+  .best-of-mynt-exe-img{
+    width: 100%;
+    margin-right: 10px;
+  }
+  div.best-of-mynt-exe-img-container{
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,9 @@
+@media (max-width:600px) {
+    div.best-buy-title-img{
+        margin-left: 10px!important;
+        margin-right: 0px!important;
+    }
+    div.best-buy-title{
+        margin-left: 40px!important;
+    }
+}

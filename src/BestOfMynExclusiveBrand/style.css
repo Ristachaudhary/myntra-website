@@ -1,0 +1,14 @@
+.best-myntra-imgs-parent-container{
+    /* margin-left: 36px; */
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:600px) {
+    div.best-of-myntra-title{
+        margin-left: 40px;
+    }
+    div.best-of-myntra-exc-brand-parent-container{
+        margin-left: 10px!important;
+        margin-right: 0px!important;
+    }
+}

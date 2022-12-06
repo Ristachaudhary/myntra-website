@@ -1,0 +1,9 @@
+@media (max-width:600px) {
+    div.deals-on-top-brands-title{
+        margin-left: 40px;
+    }
+    div.deals-on-top-brands-title-img{
+        margin-left: 10px!important;
+        margin-right: 0px!important;
+    }
+}

@@ -1,0 +1,13 @@
+.heading-component-text {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  font-weight: 500;
+}
+@media (max-width:600px) {
+  .heading-component-text {
+    font-size: 20px;
+    margin: 20px 0 0px 0px;
+  }
+}

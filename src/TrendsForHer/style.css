@@ -1,0 +1,9 @@
+@media (max-width:600px) {
+    div.trend-for-her-title-img{
+        margin-left: 10px!important;
+        margin-right: 0px!important;
+    }
+    div.trend-for-her-title{
+        margin-left: 40px!important;
+    }
+}

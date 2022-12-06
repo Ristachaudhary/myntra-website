@@ -1,0 +1,7 @@
+.deal-of-the-day-img-main-container {
+  width: calc(100vw / 7);
+}
+
+.deal-of-the-day-img-cont {
+  flex: 1;
+}

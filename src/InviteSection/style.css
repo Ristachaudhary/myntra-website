@@ -1,0 +1,39 @@
+.invitesection-main-container {
+  background-color: rgb(249, 249, 255);
+  height: 60px;
+}
+.invite-section-rupee-img {
+  width: 50px;
+  height: 50px;
+}
+.invite-section-text {
+  font-size: 12px;
+}
+.btn {
+  height: 35px;
+  width: 115px;
+}
+.forward-img {
+  width: 20px;
+  height: 20px;
+  transform: translate(-120%, 11%);
+}
+
+@media (max-width:600px) {
+  .invitesection-main-container{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 30px; */
+    height: 120px;
+  }
+  .invite-section-text{
+    font-size: 10px;
+  }
+ .btn-img-text{
+  display: none;
+ }
+ /* it is not working.  */
+
+  
+  
+}

@@ -1,0 +1,9 @@
+@media (max-width:600px) {
+    div.deal-heading-img-container{
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+    div.deal-heading{
+        margin-left: 40px;
+    }
+}

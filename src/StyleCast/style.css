@@ -1,0 +1,9 @@
+@media (max-width:600px) {
+    div.style-cast-title-img {
+        margin-left: 10px!important;
+        margin-right: 0px!important;
+    }
+    div.style-cast-title{
+        margin-left: 40px!important;
+    }
+}

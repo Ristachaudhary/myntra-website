@@ -1,0 +1,46 @@
+.footer-section-parent-container {
+  background-color: rgb(250, 251, 252);
+}
+.footer-online-shopping-parent-container {
+  margin-left: 220px;
+}
+.online-shopping-text {
+  font-size: 12px;
+}
+.online-shopping-child-text {
+  font-size: 15px;
+  font-weight: 100;
+}
+.google-img {
+  width: 140px;
+}
+.apple-img {
+  width: 120px;
+}
+.footer-contact-img {
+  width: 20px;
+  height: 20px;
+}
+.footer-original-day-section {
+  font-size: 13px;
+}
+.original-days-img {
+  width: 50px;
+  height: 40px;
+}
+.days-img {
+  width: 50px;
+  height: 50px;
+}
+@media (max-width:600px) {
+  .footer-section-parent-container{
+   flex-wrap: wrap;
+  }
+  .footer-online-shopping-parent-container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .exclusive-myntra-parent-container{
+    margin-left: 15px;
+  }
+}

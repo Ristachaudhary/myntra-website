@@ -1,0 +1,9 @@
+@media (max-width:600px) {
+    div.best-kid-wear-title-img{
+        margin-left: 10px!important;
+        margin-right: 0px!important;
+    }
+    div.best-kid-wear-title{
+        margin-left: 40px!important;
+    }
+}

@@ -1,0 +1,9 @@
+@media (max-width:600px) {
+    div.top-picks-img-title-container{
+        margin-left: 10px!important;
+        margin-right: 0px!important;
+    }
+    div.top-picks-title{
+        margin-left: 40px!important;
+    }
+}

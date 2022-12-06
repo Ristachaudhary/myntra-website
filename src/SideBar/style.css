@@ -1,0 +1,29 @@
+.sidebar-right {
+  background-color: #535766;
+  z-index: 6;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 130px;
+  width: 44px;
+  height: 288px;
+  right: 0;
+}
+.sidebar-right > p {
+  transform: rotate(-180deg);
+  writing-mode: vertical-rl;
+  text-align: center;
+  vertical-align: middle;
+  height: 200px;
+  width: 36px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 10%;
+}
+
+/* @media (max-width:600px) {
+  .sidebar-right{
+    display: none;
+  }
+} */
